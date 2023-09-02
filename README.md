@@ -1,2 +1,3 @@
-# spring-boot-olingo4-sample-project-
-Project to deonstrate using Olingo4 with Spring Boot
+# Spring Boot Olingo4 Sample Project
+
+Project to demonstrate using Apache Olingo 4 with Spring Boot
