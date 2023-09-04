@@ -12,7 +12,7 @@ import org.apache.olingo.server.api.OData;
 import org.apache.olingo.server.api.ODataHttpHandler;
 import org.apache.olingo.server.api.ServiceMetadata;
 import org.apache.olingo.server.api.debug.DefaultDebugSupport;
-import org.apache.olingo.server.api.processor.EntityCollectionProcessor;
+import org.apache.olingo.server.api.processor.Processor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,7 +25,7 @@ public class ODataController {
     CsdlEdmProvider edmProvider;
 
     @Autowired
-    EntityCollectionProcessor processor;
+    Processor processor;
 
     @Autowired
     private ApplicationContext applicationContext;

@@ -26,7 +26,7 @@ import java.nio.file.Files;
 import java.util.List;
 
 @Component
-public class EntityCollectionProcessorImpl implements EntityCollectionProcessor {
+public class ODataServiceProcessorImpl implements EntityCollectionProcessor {
 
     private OData odata;
     private ServiceMetadata serviceMetadata;
