@@ -15,7 +15,7 @@ The Spring Boot Olingo 4 Sample Project that demonstrates how to use build OData
 ### Installation:
 
 - Maven is used as the build system. Please run `mvn install` to setup the project
-- To start the application the please execute the main `classSpringBootOlingo4SampleProjectApplication.java`
+- To start the application the please execute the main class `SpringBootOlingo4SampleProjectApplication.java`
 - The application is configured to be available at the endpoint http://localhost:8080/DemoService.svc/
 
 ### Details:
